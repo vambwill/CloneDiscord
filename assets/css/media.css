@@ -1,0 +1,154 @@
+
+/* main */
+
+@media screen and (min-width: 549px) and (max-width: 780px) {
+    .sectionOne img, .sectionTwo img, .sectionTre img, .sectionFour img {
+    margin-left: 15%;
+    
+    }
+
+    .main button {
+        margin-left: 18%;
+    }
+
+}
+
+@media screen and (min-width: 772px) {
+    .main {
+        display: flex;
+        align-items: center;
+        background-image: url(/imgrand/Header\ Background\ \(1\).png);
+    }
+
+    .main h1 {
+        font-size: 50px;
+    }
+
+    .main p {
+        width: 700px;
+        text-align: center;
+        font-family: "open sans";
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 781px) {
+    .sectionOne img {
+        width: 607px;
+    }
+    
+    .sectionTwo img {
+        width: 607px;
+        margin-right: 100px;
+    }
+
+    .sectionTre img {
+        width: 607px;
+    }
+
+    .sectionFour img {
+        min-width: 700px;
+    }
+
+    .sectionOne {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0px 100px 0px 100px;
+    }
+
+/* section */
+
+    .sectionTwo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(236, 232, 232);
+        height: 661px;
+    }
+    
+    .sectionTre {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 661px; 
+    }
+    
+    .sectionFour {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 800px;
+        background-color: rgb(236, 232, 232);
+    }
+
+
+    /* H2 */
+    .sectionOne h2 {
+        max-width: 300px;
+        max-height: 270px;
+        font-size: 40px;
+        margin-top: 100px;       
+    }
+
+    .sectionTwo h2 {
+        max-width: 300px;
+        max-height: 270px;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    .sectionTre h2 {
+        max-width: 300px;
+        max-height: 270px;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    .sectionFour h2 {
+        padding: 25px;
+        height: 80px;
+        text-align: center;
+        font-family: "Luckiest Guy";
+        font-weight: 400;
+    }
+
+    /* p */
+
+    .sectionOne p {
+        width: 300px;
+        height: 250px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .sectionTwo p {
+        width: 300px;
+        height: 250px;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: -90px;
+        margin-left: 100px;
+    }
+
+    .sectionTre p {
+        width: 300px;
+        height: 250px;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: -90px;
+        margin-left: 100px;
+    }
+    
+    .sectionFour p {
+        font-family: "open sans";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        width: 700px;
+    }
+}   
+

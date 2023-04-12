@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+p {
+    font-family: 'Open Sans';
+    line-height: 22px;
+}
+/* Header Nav */
+
+.navegation {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 100px;
+    min-width: 100%;
+    background-image: linear-gradient(90deg,#7d94df,#5c78db);
+    
+}
+
+
+.logoOne {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+
+
+.barraTree {
+    height: 32px;
+}
+
+.buttonOne {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.buttonOne a {
+    text-decoration: none;
+    color: black;
+}
+
+.btnLogin {
+    width: 80px;
+    height: 32px;
+    border-bottom: #7d94df;
+    border-radius: 15px;
+}
+
+/* Main */
+
+.main {
+    height: 506px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(/img/Header\ Background\ \(3\).png);
+    background-size: 100% 100%;
+}
+
+
+.main div h1{
+    font-family: "Luckiest Guy";
+    margin: 40px 100px 24px 24px;
+}
+
+.main p {
+    
+    margin: 10px 24px 24px 24px;
+}
+
+
+.btnWindows {
+    width: 345px;
+    height: 60px;
+    background-color: white;
+    border-radius: 28px;
+    color: black;
+    font-size: 16px;
+    margin: 0px 24px 24px 24px;
+
+}
+.btnWindows a {
+    text-decoration: none;
+}
+
+
+.btnOpenDiscover {
+    width: 345px;
+    height: 60px;
+    background-color: white;
+    border-radius: 28px;
+    font-size: 16px;
+    background-color: black;
+    margin: 0px 24px 40px 24px;
+}
+
+.btnOpenDiscover a  {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* section */
+
+.sectionOne img, .sectionTwo img, .sectionTre img {
+    max-width: 100%;
+    margin: 40px 7px 24px 7px;
+}
+
+.sectionFour img {
+    margin: 0px 7px 24px 7px;
+}
+
+
+.sectionOne h2, .sectionTwo h2, .sectionTre h2 {
+  margin: 0px 22px 24px 21px;  
+}
+
+.sectionFour h2 {
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+}
+
+.sectionOne p, .sectionTwo p, .sectionTre p {
+    margin: 0px 22px 40px 21px;
+    font-weight: 400;
+}
+
+.sectionFour p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    background-color: #23272A;
+    gap: 14px;
+}
+.footer img {
+    width: 40px;
+    height: 30px;
+}
+
+
+
+
+
